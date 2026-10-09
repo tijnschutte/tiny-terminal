@@ -1,0 +1,19 @@
+{
+  "name": "tiny-terminal",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "A tiny fake terminal to learn mailboxes, doorbells and locks (inspired by Ghostty)",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "node --watch src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^7.0.2"
+  }
+}
